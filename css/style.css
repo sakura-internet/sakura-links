@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+/* reset.css */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Custom style */
+html {
+  font-size: 62.5%;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.container {
+    overflow-x: auto;
+    width: 328px;
+    padding: 10px 5px;
+}
+
+.sakura-links {
+    display: flex;
+    flex-wrap: wrap;
+}
+.sakura-links > .item {
+    margin: 3px;
+}
+
+.item {
+    padding: 5px 2px;
+}
+.item--hover > .item__link > .link__image {
+    opacity: .7;
+}
+
+.item__link {
+    display: block;
+    width: 96px;
+    text-decoration: none;
+}
+.link__image {
+    display: block;
+    margin: 0 auto;
+    width: 72px;
+    height: 72px;
+    transition: .3s;
+}
+.link__title {
+    display: block;
+    width: 100%;
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 20px;
+    color: #A0A0A0;
+}
+.link__title--compress {
+    letter-spacing: -2px;
+}
