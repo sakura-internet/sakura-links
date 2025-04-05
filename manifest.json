@@ -1,14 +1,14 @@
 {
 	"name": "さくらのコントロールパネルリンク",
 	"version": "0.1.4",
-	"manifest_version": 2,
+	"manifest_version": 3,
 	"description": "さくらインターネットの各種サービスコントロールパネルリンク集",
 	"icons": {
 		"16": "./icons/icon16.png",
 		"48": "./icons/icon48.png",
 		"128": "./icons/icon128.png"
 	},
-	"browser_action": {
+	"action": {
 		"default_icon": {
 			"19": "./icons/icon19.png",
 			"38": "./icons/icon38.png"
