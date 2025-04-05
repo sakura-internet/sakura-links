@@ -21,7 +21,7 @@ var links = [
         index: 4,
         label: '専用サーバ/高火力',
         image: './assets/sensaba_koukaryoku.svg',
-        href : 'https://secure.sakura.ad.jp/server'
+        href : 'https://secure.sakura.ad.jp/dedicated/'
     },
     {
         index: 5,
