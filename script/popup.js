@@ -57,7 +57,7 @@ var links = [
         index: 10,
         label: '会員メニュー',
         image: './assets/kaiin.svg',
-        href : 'https://secure.sakura.ad.jp/menu/top/index.php'
+        href : 'https://secure.sakura.ad.jp/menu/top/'
     },
     {
         index: 11,
