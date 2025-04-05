@@ -31,30 +31,36 @@ var links = [
     },
     {
         index: 6,
+        label: '高火力 DOK',
+        image: './assets/koukaryoku-dok.svg',
+        href : 'https://secure.sakura.ad.jp/koukaryoku-container/'
+    },
+    {
+        index: 7,
         label: 'sakura.io',
         image: './assets/sakuraio.svg',
         href : 'https://secure.sakura.ad.jp/iot/console/#/'
     },
     {
-        index: 7,
+        index: 8,
         label: 'ウェブアクセラレータ',
         image: './assets/wa.svg',
         href : 'https://secure.sakura.ad.jp/webaccel/'
     },
     {
-        index: 8,
+        index: 9,
         label: 'オブジェクトストレージ',
         image: './assets/objectstorage.svg',
         href : 'https://secure.sakura.ad.jp/objectstorage/'
     },
     {
-        index: 9,
+        index: 10,
         label: '会員メニュー',
         image: './assets/kaiin.svg',
         href : 'https://secure.sakura.ad.jp/menu/top/index.php'
     },
     {
-        index: 10,
+        index: 11,
         label: 'サポート',
         image: './assets/support.svg',
         href : 'https://help.sakura.ad.jp/'
