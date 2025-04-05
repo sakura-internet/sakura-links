@@ -61,6 +61,12 @@ var links = [
     },
     {
         index: 11,
+        label: 'さくらのドメイン',
+        image: './assets/kaiin.svg',
+        href : 'https://secure.sakura.ad.jp/domain/'
+    },
+    {
+        index: 12,
         label: 'サポート',
         image: './assets/support.svg',
         href : 'https://help.sakura.ad.jp/'
