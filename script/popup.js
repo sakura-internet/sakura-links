@@ -3,7 +3,7 @@ var links = [
         index: 1,
         label: 'レンタルサーバ',
         image: './assets/rental_server.svg',
-        href : 'https://secure.sakura.ad.jp/rscontrol/'
+        href : 'https://secure.sakura.ad.jp/rs/cp/'
     },
     {
         index: 2,
