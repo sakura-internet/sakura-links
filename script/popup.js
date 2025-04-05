@@ -25,30 +25,36 @@ var links = [
     },
     {
         index: 5,
+        label: '専用サーバPHY',
+        image: './assets/dedicated_server_phy.svg',
+        href : 'https://secure.sakura.ad.jp/dedicated/phy/cpanel/servers'
+    },
+    {
+        index: 6,
         label: 'sakura.io',
         image: './assets/sakuraio.svg',
         href : 'https://secure.sakura.ad.jp/iot/console/#/'
     },
     {
-        index: 6,
+        index: 7,
         label: 'ウェブアクセラレータ',
         image: './assets/wa.svg',
         href : 'https://secure.sakura.ad.jp/webaccel/'
     },
     {
-        index: 7,
+        index: 8,
         label: 'オブジェクトストレージ',
         image: './assets/objectstorage.svg',
         href : 'https://secure.sakura.ad.jp/objectstorage/'
     },
     {
-        index: 8,
+        index: 9,
         label: '会員メニュー',
         image: './assets/kaiin.svg',
         href : 'https://secure.sakura.ad.jp/menu/top/index.php'
     },
     {
-        index: 9,
+        index: 10,
         label: 'サポート',
         image: './assets/support.svg',
         href : 'https://help.sakura.ad.jp/'
