@@ -37,12 +37,18 @@ var links = [
     },
     {
         index: 7,
+        label: 'オブジェクトストレージ',
+        image: './assets/objectstorage.svg',
+        href : 'https://secure.sakura.ad.jp/objectstorage/'
+    },
+    {
+        index: 8,
         label: '会員メニュー',
         image: './assets/kaiin.svg',
         href : 'https://secure.sakura.ad.jp/menu/top/index.php'
     },
     {
-        index: 8,
+        index: 9,
         label: 'サポート',
         image: './assets/support.svg',
         href : 'https://help.sakura.ad.jp/'
