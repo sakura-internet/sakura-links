@@ -106,8 +106,9 @@ function main() {
         li.addEventListener('mouseleave', function (event) {
             event.target.classList.remove('item--hover');
         });
-        li.addEventListener('click', function () {
-            chrome.tabs.create({active: true, url: link.href})
+        li.addEventListener('click', function (event) {
+            event.preventDefault();
+            chrome.tabs.create({active: true, url: link.href});
         })
 
         li.innerHTML = [
