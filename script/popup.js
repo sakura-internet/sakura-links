@@ -130,9 +130,13 @@ function main() {
         li.addEventListener('mouseleave', function (event) {
             event.target.classList.remove('item--hover');
         });
+        li.addEventListener('click', function (event) {
+            event.preventDefault();
+            chrome.tabs.create({active: true, url: link.href});
+        })
 
         li.innerHTML = [
-            '<a class="item__link" href="' + link.href + '" target="_blank">',
+            '<a class="item__link" href="' + link.href + '">',
             '<img class="link__image" src="' + link.image + '">',
             '<span class="link__title' + (needsCompress ? ' link__title--compress' : '') + '">' + link.label + '</span>',
             '</a>'
