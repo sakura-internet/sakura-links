@@ -2,8 +2,8 @@ var links = [
     {
         index: 1,
         label: 'レンタルサーバ',
-        image: './assets/rensaba.svg',
-        href : 'https://secure.sakura.ad.jp/rscontrol/'
+        image: './assets/rental_server.svg',
+        href : 'https://secure.sakura.ad.jp/rs/cp/'
     },
     {
         index: 2,
@@ -21,28 +21,52 @@ var links = [
         index: 4,
         label: '専用サーバ/高火力',
         image: './assets/sensaba_koukaryoku.svg',
-        href : 'https://secure.sakura.ad.jp/server'
+        href : 'https://secure.sakura.ad.jp/dedicated/'
     },
     {
         index: 5,
+        label: '専用サーバPHY',
+        image: './assets/dedicated_server_phy.svg',
+        href : 'https://secure.sakura.ad.jp/dedicated/phy/cpanel/servers'
+    },
+    {
+        index: 6,
+        label: '高火力 DOK',
+        image: './assets/koukaryoku-dok.svg',
+        href : 'https://secure.sakura.ad.jp/koukaryoku-container/'
+    },
+    {
+        index: 7,
         label: 'sakura.io',
         image: './assets/sakuraio.svg',
         href : 'https://secure.sakura.ad.jp/iot/console/#/'
     },
     {
-        index: 6,
+        index: 8,
         label: 'ウェブアクセラレータ',
         image: './assets/wa.svg',
         href : 'https://secure.sakura.ad.jp/webaccel/'
     },
     {
-        index: 7,
-        label: '会員メニュー',
-        image: './assets/kaiin.svg',
-        href : 'https://secure.sakura.ad.jp/menu/top/index.php'
+        index: 9,
+        label: 'オブジェクトストレージ',
+        image: './assets/objectstorage.svg',
+        href : 'https://secure.sakura.ad.jp/objectstorage/'
     },
     {
-        index: 8,
+        index: 10,
+        label: '会員メニュー',
+        image: './assets/kaiin.svg',
+        href : 'https://secure.sakura.ad.jp/menu/top/'
+    },
+    {
+        index: 11,
+        label: 'さくらのドメイン',
+        image: './assets/kaiin.svg',
+        href : 'https://secure.sakura.ad.jp/domain/'
+    },
+    {
+        index: 12,
         label: 'サポート',
         image: './assets/support.svg',
         href : 'https://help.sakura.ad.jp/'
